@@ -78,4 +78,14 @@ public interface Calculator {
 	 * @throws Exception
 	 */
 	double sqrt(double f) throws Exception;
+	
+	/**
+	 * 对输入的数据处理
+	 * 
+	 * @param rpnData
+	 * 
+	 * @throws Exception
+	 * 
+	 */
+	void calRpnExpression(String rpnData) throws Exception;
 }
